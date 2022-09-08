@@ -42,6 +42,7 @@ const Footer = () => {
               <a className="text-indigo-400 leading-relaxed">
                 anniesmith@email.com
                 <br/>
+          
               </a>
               <br/>
             </div>
