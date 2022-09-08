@@ -1,13 +1,15 @@
 import React from "react";
+import About from './components/About'
+import Navigation from './components/Navigation'
+import Project from './components/Project'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
     <main>
-      <Navbar />
+      <Navigation />
       <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
+      <Project />
       <Contact />
     </main>
   );
