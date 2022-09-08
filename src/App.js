@@ -1,16 +1,16 @@
 import React from "react";
 import About from './components/About'
-import Navigation from './components/Navigation'
+// import Navigation from './components/Navigation'
 import Project from './components/Project'
-import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
     <main>
-      <Navigation />
+      {/* <Navigation /> */}
       <About />
       <Project />
-      <Contact />
+      <Footer />
     </main>
   );
 }

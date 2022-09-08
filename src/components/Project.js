@@ -2,7 +2,7 @@
 import React from "react";
 import { projects } from "../data";
 
-export default function Project() {
+const Project = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -43,3 +43,5 @@ export default function Project() {
     </section>
   );
 }
+
+export default Project
